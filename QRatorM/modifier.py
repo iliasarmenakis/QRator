@@ -9,7 +9,7 @@ def add_pay_here_button(file_path):
         # Create the "Pay Here" button element with inline CSS
         button_html = '''
         <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
-            <button onclick="window.location.href='boxsite.html'" style="
+            <button onclick="window.location.href='boxsite'" style="
                 background-color: #32CD32;
                 color: white;
                 padding: 15px 32px;
