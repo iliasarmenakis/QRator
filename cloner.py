@@ -96,7 +96,7 @@ def clone_website(url):
 
     try:
 
-        child.expect(pexpect.EOF, timeout=300)  # Extend timeout for cloning process
+        child.expect(pexpect.EOF, timeout=10)  # Extend timeout for cloning process
 
     except pexpect.exceptions.TIMEOUT as e:
 
