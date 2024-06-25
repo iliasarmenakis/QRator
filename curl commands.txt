@@ -1,0 +1,8 @@
+From another machine on the same network, use the following curl command:
+
+curl -X POST -H "Content-Type: application/json" -d '{"url": "https://example.com"}' http://192.168.1.185:5000/run_script
+
+
+From the same machine
+
+curl -X POST -H "Content-Type: application/json" -d '{"url": "https://example.com"}' http://127.0.0.1:5000/run_script
