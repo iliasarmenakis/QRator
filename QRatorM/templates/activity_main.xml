@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_scan_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan QR Code"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_insert_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert IP"
+        android:layout_below="@id/btn_scan_qr"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_run_script"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Script"
+        android:layout_below="@id/btn_insert_ip"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_create_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create QR"
+        android:layout_below="@id/btn_run_script"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
